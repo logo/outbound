@@ -1,22 +1,2 @@
-
-/**
- * Outbound
- */
-
-.logo[data-logo="Outbound"] {
-  width: 4.384545455em;
-  /* (13.78/2.42) * (1-.2-.03) - 0 */
-}
-
-.logo[data-logo="Outbound"] > * {
-  background-image: url(images/logo.svg);
-  margin: .03em 0 .2em 0;
-}
-
-.logo[data-logo="Outbound"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Outbound"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
